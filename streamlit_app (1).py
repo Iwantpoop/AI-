@@ -249,6 +249,8 @@ Original file is located at
 # plt.legend()
 # st.pyplot(fig)
 
+pip install streamlit yfinance pandas numpy matplotlib sklearn requests
+
 from pyngrok import ngrok
 import subprocess
 import os
