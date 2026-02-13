@@ -264,8 +264,6 @@ print(f"Streamlit app available at: {public_url}")
 # Run Streamlit in the background as a Python module
 subprocess.Popen(["python", "-m", "streamlit", "run", "app.py", "--server.port", "8501", "--server.headless", "true"])
 
-pip install streamlit yfinance pandas numpy ta requests scikit-learn xgboost
-
 from pyngrok import ngrok
 
 # Replace 'YOUR_NGROK_AUTH_TOKEN' with your actual ngrok authtoken
